@@ -46,8 +46,6 @@ fn array() {
     let new_days_array = change_str_array(&array_days);
     println!("Измененный массив дней недели: {:?}", new_days_array); // результат взят из кэша
 
-
-
 }
 
 // #[memoize]
